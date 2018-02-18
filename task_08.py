@@ -31,4 +31,8 @@ NERVOUS_AS = """
 
 
 """
-print NERVOUS_AS.strip(" " " ")
+NERVOUS_AS = NERVOUS_AS.replace('"""', "'")
+
+NERVOUS_AS = NERVOUS_AS.strip().lstrip('/').rstrip(',')
+
+# print NERVOUS_AS
