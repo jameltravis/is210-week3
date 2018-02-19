@@ -7,7 +7,7 @@
 import unittest
 
 # Import student file
-import task_07
+from is210_week3 import task_07
 
 
 class L03T07TestCase(unittest.TestCase):

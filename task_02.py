@@ -13,4 +13,4 @@ Divide all of the above by 7
 # I took advantage of Python having
 # order of operations built in.
 WEEKS = (19 % 10 + 100 + 2 ** 8) / 7
-# print WEEKS
+print WEEKS

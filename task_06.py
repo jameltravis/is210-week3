@@ -19,6 +19,10 @@ WORDS = FHANDLER.read()
 
 FHANDLER.close()
 
-WORDCT = len(WORDS.split(' '))
+WORDCT = len(WORDS.split()) # Doesn't this count chars and not words?
 
-# print WORDCT
+# How about...
+# WORDCT = len(WORDS.split(' '))
+# That way, you split by spaces
+
+print WORDCT

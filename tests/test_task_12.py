@@ -9,7 +9,7 @@ from decimal import Decimal
 from fractions import Fraction
 
 # Import student file
-import task_12
+from is210_week3 import task_12
 
 
 class L03T12TestCase(unittest.TestCase):

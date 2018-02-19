@@ -6,11 +6,11 @@ Repeat our danger.
 
 Reassign KLAXTON to KLAXTON repeated 5 times (5 separate words)."""
 
-import task_03
-
+from is210_week3 import task_03
+# from .task_03 import KLAXON
 
 KLAXON = task_03.KLAXON
 
-KLAXON = (KLAXON + ' ') * 5
+KLAXON = KLAXON * 5
 
-# print KLAXON
+print KLAXON
